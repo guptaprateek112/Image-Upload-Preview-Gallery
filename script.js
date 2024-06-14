@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         galleryItem.classList.add('remove');
                         setTimeout(() => {
                             gallery.removeChild(galleryItem);
-                        }, 500); // Match the duration of the zoomOut animation
+                        }, 500); 
                     });
                 }
                 reader.readAsDataURL(file);
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    createParticles(50); // Adjust the number of particles if needed
+    createParticles(50); 
 
     function createParticles(number) {
         const background = document.querySelector('.background');
