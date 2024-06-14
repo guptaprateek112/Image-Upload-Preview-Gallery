@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     margin: 0;
     overflow: hidden;
-    padding-bottom: 50px; /* Ensure space for footer */
+    padding-bottom: 50px; 
     background: #000;
 }
 
